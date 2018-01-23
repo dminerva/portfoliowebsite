@@ -9,6 +9,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Racing Sans One' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,32 +25,84 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li><a href="#intro">Intro</a></li>
+                <li><a href="#intro">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
     </nav>
     <div class="intro" id="intro">
         <img class="img-responsive" src="danielminerva.png" alt="Daniel Minerva">
+        <p>Full stack web and software developer</p>
         <a href="https://www.linkedin.com/in/daniel-minerva-583968129/"><i class="fa fa-linkedin"></i></a>
         <a href="https://github.com/dminerva"><i class="fa fa-github"></i></a>        
     </div>
     <div class="container">
         <div class="about" id="about">
             <h1>About</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button type="button" class="btn btn-danger btn-lg"><a href="resume.pdf"><i class="fa fa-file-text"></i>Resume</a></button>
+            <p>Full stack web and software developer from Long Island, New York</p>
+            <p>Using my ingenuity and creativity to design solutions for you</p>
+            <p>Communication, organisation, time keeping and project management are just some of my skills</p>
+            <p>Always learning and expanding my skill set</p>
+            <button type="button" class="btn btn-danger btn-lg"><a href="resume.pdf" target="_blank"><i class="fa fa-file-text"></i>Resume</a></button>
         </div>
         <div class="skills" id="skills">
             <h1>Skills</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-1">
+                    <img class="img-responsive" src="htmllogo.png" alt="HTML">
+                </div>
+                <div class="col-sm-2">
+                    <img class="img-responsive" src="csslogo.png" alt="CSS">
+                </div>
+                <div class="col-sm-2">
+                    <img class="img-responsive" src="jslogo.png" alt="JavaScript">
+                </div>
+                <div class="col-sm-2">
+                    <img class="img-responsive" src="phplogo.png" alt="PHP">
+                </div>
+                <div class="col-sm-2">
+                    <img class="img-responsive" src="bootstraplogo.png" alt="Bootstrap">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-1">
+                    <img class="img-responsive" src="javalogo.png" alt="Java">
+                </div>
+                <div class="col-sm-2">
+                    <img class="img-responsive" src="cpplogo.png" alt="C++">
+                </div>
+                <div class="col-sm-2">
+                    <img class="img-responsive" src="androidstudiologo.png" alt="Android Studio">
+                </div>
+                <div class="col-sm-2">
+                    <img class="img-responsive" src="rlogo.png" alt="R">
+                </div>
+                <div class="col-sm-2">
+                    <img class="img-responsive" src="mysqllogo.png" alt="MySQL">
+                </div>
+            </div>
+            <p>Check out some of my projects on <a href="https://github.com/dminerva">Github</a></p>
         </div>
-        <div class="projects" id="projects">
-            <h1>Projects</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="contact" id="contact">
+            <h1>Contact</h1>
+            <form action="contact.php" method="post">
+                <div class="form-group">
+                    <p>Email address</p>
+                    <input type="email" class="form-control" id="email" name="email" style="width: 25%;" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <p>Message</p>
+                    <textarea class="form-control" rows="20" id="message" name="message" required></textarea>
+                </div>
+                <br>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-danger btn-lg">Submit</button>
+                </div>
+            </form>
         </div>
     </div>
 </body>

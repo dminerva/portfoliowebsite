@@ -3,6 +3,7 @@ body, html {
     padding-top: 15px;
     background-color: black;
     color: white;
+    font-family: 'Open Sans';font-size: 18px;
 }
 
 .intro {
@@ -14,23 +15,26 @@ body, html {
 .intro img {
     display: block;
     margin: auto;
-    padding-top: 40vh;
+    padding-top: 35vh;
 }
 
-.intro  i {
+.intro i {
     font-size:48px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
     color: white;
 }
 
 .intro i:hover {
-    color: red;
+    color: cyan;
 }
 
 .about {
-    border-bottom: 1px solid;
-    border-color: white;
+    height: 100vh;
+    padding-top: 50px;
+    text-align: center;
+    border-bottom: 6px solid white;
 }
 
 .about i {
@@ -42,7 +46,50 @@ body, html {
     text-decoration: none;
 }
 
+.about .btn {
+    margin-top: 50px;
+}
+
 .skills {
-    border-bottom: 1px solid;
-    border-color: white;
+    height: 100vh;
+    padding-top: 50px;
+    border-bottom: 6px solid white;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    font-family: 'Racing Sans One';
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+  
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.contact {
+    height: 100vh;
+    padding-top: 50px;  
+}
+
+.skills a {
+    color: red;
+}
+
+.skills a:hover{
+    color: cyan;
+    text-decoration: none;
+}
+
+.skills p {
+    margin-top: 50px;
+}
+
+.about p {
+    margin-top: 20px;
 }
