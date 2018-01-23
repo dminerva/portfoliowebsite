@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+}
+
+.intro {
+    height: 100vh;
+    background-image: url("background.jpg");
+    text-align: center;    
+}
+
+.intro img {
+    display: block;
+    margin: auto;
+    padding-top: 40vh;
+}
+
+.intro  i {
+    font-size:48px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.intro i:hover {
+    color: red;
+}
+
+.about {
+    border-bottom: 1px solid;
+    border-color: white;
+}
+
+.about i {
+    padding-right: 10px;
+}
+
+.about a {
+    color: white;
+    text-decoration: none;
+}
+
+.skills {
+    border-bottom: 1px solid;
+    border-color: white;
+}
