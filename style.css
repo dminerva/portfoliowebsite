@@ -86,13 +86,8 @@ h1 {
 
 .skills .img-responsive {
     margin-bottom: 50px;
-}
-
-.projects img {
-    height: 150px;
-    width: 150px;
-    margin-top: 25px;
-    margin-bottom: 50px;    
+    height: 128px;
+    width: 128px;
 }
 
 h2 {
@@ -132,10 +127,12 @@ h2 {
     width: 50%;
 }
 
-.image {
+.projects .image {
     display: block;
-    width: 100%;
-    height: auto;
+    height: 150px;
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 50px; 
 }
 
 .overlay {
