@@ -162,3 +162,7 @@ h2 {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.projects {
+    text-align: center;
+}
